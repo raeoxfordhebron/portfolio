@@ -4,8 +4,8 @@ import theme from "../json/theme.json"
 export const HeaderContainer = styled.header`
 padding: 6px;
 text-align: center;
-background-color: ${theme.color3};
-color: ${theme.color5}
+background-color: ${theme.color4};
+color: white;
 `
 
 export const NavContainer = styled.nav`
@@ -16,9 +16,9 @@ flex-wrap: wrap;
 
 export const NavLinkWrapper = styled.nav`
 text-decoration: none;
-color: ${theme.color5};
+color: white;
 &:hover {
-    color: ${theme.color4};
+    color: ${theme.color1};
     font-weight: 800;
 }
 `
