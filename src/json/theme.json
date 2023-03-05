@@ -3,5 +3,7 @@
     "color2":"#C99DA3",
     "color3":"#90B494",
     "color4":"#718F94",
-    "color5":"#5E4352"
+    "color5":"#5E4352",
+    "title-font": "'Figtree', sans-serif;",
+    
 }
