@@ -2,28 +2,28 @@
     {
         "image": "https://i.imgur.com/dh8hCxc.png",
         "name": "Animal Crossing Index",
-        "description": "Animal Crossing Index is a...",
+        "description": "A responsive web application that consumes a novel API to allow users to esearch by name and similarities in characters. ",
         "github:": "https://github.com/raeoxfordhebron/project-1",
         "live": "https://raeoxfordhebron.github.io/project-1/"
     },
     {
         "image": "https://i.imgur.com/3BhbR2M.png",
         "name": "Buster Block",
-        "description": "Buster Block is a...",
+        "description": "Full-stack web application with user authentication and RESTful service by Node.js and Express.js.",
         "github": "https://github.com/raeoxfordhebron/project-2",
         "live": "https://turmeric-project-2-yj41.onrender.com/user/login"
     },
     {
         "image": "https://i.imgur.com/7KZq8H5.png",
         "name": "Road Trip Buddy",
-        "description": "Road Trip Buddy is a ...",
+        "description": "Achieved a responsive front-end framework utilizing React to ensure proper rendering and scalability.",
         "github":"https://github.com/raeoxfordhebron/project-3-frontend",
         "live": "https://project-3-frontend-uxxk.onrender.com/"
     },
     {
         "image": "https://i.imgur.com/vwDF5ib.png",
         "name": "The Oxford Job Dictionary",
-        "description": "The Oxford Job Dictionary is a ...",
+        "description": "React frontend that consumes a Django API with all CRUD operations.",
         "github": "https://github.com/raeoxfordhebron/project-4-frontend",
         "live": "https://project-4-frontend.onrender.com/"
     }

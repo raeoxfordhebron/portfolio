@@ -1,15 +1,15 @@
 import about from "../json/about.json"
-import { HeaderContainer, NavContainer, NavLinkWrapper } from "../styled-components/Header"
+import { HeaderContainer, NavContainer, NavLinkWrapper, NavLink } from "../styled-components/Header"
 
 export default function Header (props) {
     return <HeaderContainer>
         <h1>My Portfolio</h1>
         <NavContainer>
-            <NavLinkWrapper href="">
-                <div>Github</div>
+            <NavLinkWrapper href="https://github.com/raeoxfordhebron">
+                <NavLink>Github</NavLink>
             </NavLinkWrapper>
-            <NavLinkWrapper href="">
-                <div>LinkedIn</div>
+            <NavLinkWrapper href="https://www.linkedin.com/in/rae-hebron/">
+                <NavLink>LinkedIn</NavLink>
             </NavLinkWrapper>
         </NavContainer>
     </HeaderContainer>
