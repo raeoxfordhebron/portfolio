@@ -1,11 +1,11 @@
 import about from "../json/about.json"
-import { BioContainer, BioImage } from "../styled-components/Bio"
+import { BioContainer, BioImage, BioDescripton } from "../styled-components/Bio"
 
 export default function Bio (props) {
     return <BioContainer>
         <h1>{about.name}</h1>
         <BioImage src={about.img}/>
         <h3>{about.email}</h3>
-        <p>{about.bio}</p>
+        <BioDescripton>{about.bio}</BioDescripton>
     </BioContainer>
 }

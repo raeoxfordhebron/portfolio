@@ -3,7 +3,7 @@ import { HeaderContainer, NavContainer, NavLinkWrapper, NavLink } from "../style
 
 export default function Header (props) {
     return <HeaderContainer>
-        <h1>My Portfolio</h1>
+        <h1>Welcome!</h1>
         <NavContainer>
             <NavLinkWrapper href="https://github.com/raeoxfordhebron">
                 <NavLink>Github</NavLink>

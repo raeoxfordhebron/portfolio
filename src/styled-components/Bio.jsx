@@ -16,3 +16,7 @@ object-fit: cover;
 border-radius: 60px;
 max-width: 400px;
 `
+
+export const BioDescripton = styled.p`
+padding: 20px;
+`
