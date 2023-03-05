@@ -14,4 +14,5 @@ export const BioImage = styled.img`
 width: 25%;
 object-fit: cover;
 border-radius: 60px;
+max-width: 400px;
 `
