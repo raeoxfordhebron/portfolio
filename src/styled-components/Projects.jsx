@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ProjectsContainer = styled.section`
 display: flex;
 flex-wrap: wrap;
-padding: 10%;
+padding: 4%;
 justify-content: space-around;
 background-color: ${theme.color2};
 border-radius: 10px;

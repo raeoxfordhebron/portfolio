@@ -16,7 +16,7 @@ flex-wrap: wrap;
 border-radius: 10px;
 `
 
-export const NavLinkWrapper = styled.nav`
+export const NavLinkWrapper = styled.a`
 text-decoration: none;
 color: white;
 &:hover {

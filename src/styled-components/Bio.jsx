@@ -8,6 +8,7 @@ background-color: ${theme.color3};
 color: ${theme.color5};
 width: 90%;
 margin: auto;
+padding: 8px;
 `
 
 export const BioImage = styled.img`
