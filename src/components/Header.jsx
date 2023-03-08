@@ -4,7 +4,6 @@ import { HeaderContainer, NavContainer, NavLinkWrapper, NavLink } from "../style
 
 export default function Header (props) {
     return <HeaderContainer>
-        <h1>Welcome!</h1>
         <NavContainer>
             <NavLinkWrapper href="https://github.com/raeoxfordhebron" target="_blank" rel="noreferrer noopener">
                 <NavLink>Github</NavLink>
