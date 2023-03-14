@@ -9,13 +9,7 @@ color: ${theme.color5};
 width: 90%;
 margin: auto;
 padding: 8px;
-`
-
-export const BioImage = styled.img`
-width: 25%;
-object-fit: cover;
-border-radius: 60px;
-max-width: 400px;
+border-radius: 10px;
 `
 
 export const BioDescripton = styled.p`

@@ -14,6 +14,9 @@ export default function Header (props) {
             <NavLinkWrapper href="mailto:rae.oxford.hebron@gmail.com" target="_blank" rel="noreferrer noopener">
                 <NavLink>E-Mail</NavLink>
             </NavLinkWrapper>
+            <NavLinkWrapper href="resume/ATS_Resume.pdf" target="_blank" rel="noreferrer noopener" download="Resume_Hebron">
+                <NavLink>Resume</NavLink>
+            </NavLinkWrapper>
         </NavContainer>
     </HeaderContainer>
 }

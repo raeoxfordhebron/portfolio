@@ -6,6 +6,7 @@ padding: 6px;
 text-align: center;
 background-color: ${theme.color4};
 color: white;
+border-radius: 10px;
 `
 
 export const NavContainer = styled.nav`
