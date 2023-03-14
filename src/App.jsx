@@ -3,6 +3,7 @@ import './App.css'
 import Bio from './components/Bio'
 import Projects from './components/Projects'
 import Footer from "./components/Footer"
+import Skills from "./components/Skills"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <Bio/>
+      <Skills/>
       <Projects/>
       <Footer/>
     </div>
