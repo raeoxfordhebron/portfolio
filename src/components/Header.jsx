@@ -1,5 +1,6 @@
 import about from "../json/about.json"
 import { HeaderContainer, NavContainer, NavLinkWrapper, NavLink } from "../styled-components/Header"
+import resume from "../assets/ATS_Resume.pdf"
 
 
 export default function Header (props) {
@@ -14,7 +15,7 @@ export default function Header (props) {
             <NavLinkWrapper href="mailto:rae.oxford.hebron@gmail.com" target="_blank" rel="noreferrer noopener">
                 <NavLink>E-Mail</NavLink>
             </NavLinkWrapper>
-            <NavLinkWrapper href="../assets/ATS_Resume.pdf" target="_blank" rel="noreferrer noopener" download="Resume_Hebron">
+            <NavLinkWrapper href={resume} target="_blank" rel="noreferrer noopener">
                 <NavLink>Resume</NavLink>
             </NavLinkWrapper>
         </NavContainer>
