@@ -1,5 +1,5 @@
 import skills from "../json/skills.json"
-import { SkillContainer, Container } from "../styled-components/Skills"
+import { SkillContainer, Container, SkillImage, SkillTitle } from "../styled-components/Skills"
 
 export default function Skills (props) {
     return <div>
@@ -7,8 +7,8 @@ export default function Skills (props) {
         {skills.map((skill) => {
             return <>
             <Container>
-            <img src={skill.image}/>
-            <div>{skill.name}</div>
+            <SkillImage src={skill.image}/>
+            <SkillTitle>{skill.name}</SkillTitle>
             </Container>
             </>
         })}

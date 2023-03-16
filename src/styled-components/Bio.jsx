@@ -6,7 +6,7 @@ export const BioContainer = styled.section`
 text-align: center;
 background-color: ${theme.color3};
 color: ${theme.color5};
-width: 90%;
+width: 75%;
 margin: auto;
 padding: 8px;
 border-radius: 10px;

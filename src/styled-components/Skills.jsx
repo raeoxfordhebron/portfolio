@@ -12,3 +12,13 @@ margin: 0 auto;
 export const Container = styled.div`
 margin: 15px;
 `
+
+export const SkillImage = styled.img`
+
+`
+
+export const SkillTitle = styled.div`
+&:hover{
+    
+}
+`
