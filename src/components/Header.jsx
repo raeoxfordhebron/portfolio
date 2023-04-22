@@ -1,6 +1,6 @@
 import about from "../json/about.json"
 import { HeaderContainer, NavContainer, NavLinkWrapper, NavLink } from "../styled-components/Header"
-import resume from "../assets/ATS_Resume.pdf"
+import resume from "../assets/ATS_Resume.docx.pdf"
 
 
 export default function Header (props) {
